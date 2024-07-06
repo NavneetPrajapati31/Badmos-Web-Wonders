@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.products-layout-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 29%;
+    height: 300px;
+    background-color: rgb(106, 106, 106);
+    padding: 20px 0px 15x;
+}
+
+.box-content p{
+    color: #6cef26ff;
+}
+
+.box-img{
+    height: 300px;
+}

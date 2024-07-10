@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    <div class="overlay"></div>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">EcoMarket</a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" id="login-btn">Login/Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <h1>Welcome to <span class="highlight">Sustainable Marketplace</span></h1>
+            <p>Your one-stop shop for eco-friendly products.</p>
+            <div id="glacier-data">
+                <h2>Real-Time Glacier Melting Data</h2>
+                <p id="glacier-melting-rate">Loading...</p>
+            </div>
+            <div id="quotes">
+                <p id="quote-text">"The greatest threat to our planet is the belief that someone else will save it." - Robert Swan</p>
+            </div>
+            <div id="search-tips">
+                <input type="text" id="search-input" placeholder="Search eco-friendly travel tips...">
+                <button id="search-btn">Search</button>
+                <div id="tips-result"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sustainable Marketplace. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    
+    <!-- Login/Signup Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login/Signup</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

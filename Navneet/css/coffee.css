@@ -20,7 +20,7 @@ body{
 
 .box{
     width: 300px;
-    height: 500px;
+    height: 650px;
     padding: 20px 0px 15x;
 
 }
@@ -32,10 +32,17 @@ body{
 
 .box-text p{
     color: #A8845A;
-    font-size: 20px;
+    font-size: 25px;
+    transition: .5s;
 }
-
 
 .box-text p:hover{
     color: #65BC7B;
+}
+
+#price{
+    font-size: 20px;
+    color: #65BC7B;
+    display: flex;
+    justify-content: center;
 }

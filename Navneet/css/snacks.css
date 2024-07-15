@@ -87,14 +87,18 @@ nav ul li a:hover {
 
 .box{
     width: 300px;
-    height: 650px;
+    height: 500px;
     padding: 20px 0px 15x;
-
 }
 
-.box-img img{
+.box-img2 img{
     height: 300px;
     width: 300px;
+}
+
+.box-img1 img{
+    height: 220px;
+    width: 310px;
 }
 
 .box-text p{
@@ -117,6 +121,7 @@ nav ul li a:hover {
 footer {
     display: flex;
     justify-content: center;
+    bottom: 20px;
     width: 100%;
     text-align: center;
     z-index: 1;
@@ -124,5 +129,6 @@ footer {
 
 footer p {
     color: #006B38FF;
+    margin-top: 70px;
     font-size: 14px;
 }
